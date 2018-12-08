@@ -1,0 +1,31 @@
+#skype{
+    font-weight: bold;
+  }
+  #wechat{
+    font-weight: bold;
+  }
+  #social{
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa-facebook{
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin{
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube{
+    background: #bb0000;
+    color: white;
+  }
+  .card-footer{
+      height: 0px;
+      background-color: greenyellow;
+  }

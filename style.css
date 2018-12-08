@@ -1,0 +1,104 @@
+#du img{
+    margin-right: 3%;
+}
+#ding img{
+    margin-right: 3%;
+}
+#duan img{
+    margin-right: 3%;
+}
+#Liu img{
+    margin-right: 3%;
+}
+#guo img{
+    margin-right: 3%;
+}
+.navbar-brand{
+    margin-right: 10%;
+  }
+  .jumbotron{
+  margin: 0%;
+  };
+  #goals img{
+    margin-right: 1%;
+}
+#history img{
+    margin-right: 1%;
+}
+.navbar-brand{
+    margin-right: 10%;
+  }
+.jumbotron{
+  margin: 0%;
+}
+#featured img{
+  width: 100%;
+  height: 100%;
+}
+#masters-card img{
+  width: 100%;
+  height: 100%;
+}
+#training img{
+  width: 100%;
+  height: 100%;
+}
+#masters img{
+    width: 100%;
+    height: 100%;
+}
+#students img{
+    width: 100%;
+    height: 100%;
+}
+#chinese img{
+    width: 100%;
+    height: 100%;
+}
+#location img{
+    width: 100%;
+    height:100%;
+}
+#skype{
+  font-weight: bold;
+}
+#wechat{
+  font-weight: bold;
+}
+#social{
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin{
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube{
+  background: #bb0000;
+  color: white;
+}
+.card-footer{
+    height: 0px;
+    background-color: greenyellow;
+}
+#blog1:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+#blog1 img:hover{
+    opacity: 0.3;
+    filter: alpha(opacity=50);
+}
+#blog2 img:hover{
+    opacity: 0.3;
+    filter: alpha(opacity=50);
+}
