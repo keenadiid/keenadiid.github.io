@@ -20,9 +20,6 @@ margin-right: 1%;
 #history img{
     margin-right: 1%;
 }
-.navbar-brand{
-    margin-right: 10%;
-  }
 .jumbotron{
   margin: 0%;
 }
@@ -108,38 +105,52 @@ background-color:#974B42;
 .page-footer{
   padding: 10px;
 }
-.navbar{
-  /* position: absolute; */
-  /* top: 70px; */
-  width: 100%;
-  z-index: 999;
-  background:#974B42;
-  border-radius: 0%;
-  opacity: 0.7;
+.navbar-brand img{
+  width: 110px;
+  height: 70px;
   }
-  .navbar-brand img{
-  width: 30%;
-  height: 30%;
-  color: white;
-  /* padding: 0px; */
+#home:hover, #contact:hover, .dropdown a:hover{
+  background-color: red;
 }
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+
 </style>
 
 </head>
 
 <body>
   <div class="container-fluid">
+    <div class="row" id="logo" style="background-color: #974B42">
+      <div class="col">
+        <a href="#" class="navbar-brand"> <img src="images/0.png" class="rounded-circle" alt="logo" style="float:left">
+          Tancheng Chanwu International Kung Fu School
+        </a>
+          </div>
+    </div>
     <div class="row">
       <div class="col">
-        <nav class="navbar navbar-dark navbar-expand-lg navbar-toggleable nav-pill">
-                <a class="navbar-brand" href=""> <img src="images/0.png" class="rounded-circle" alt="logo"></a>
+        <nav class="navbar navbar- bg-light navbar-expand-lg navbar-toggleable nav-pill" style="background-color:#974B42">
           <button style="border-color:white; background-color:black" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#myContent" aria-controls="myContent" aria-expanded="false" aria-label="Toggle Navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="myContent">
+          <div class="collapse navbar-collapse justify-content-center" id="myContent">
             <div class="navbar-nav">
-              <a href="home.html" class="nav-item nav-link active">Home</a>
+              <a id="home" href="index.html" class="nav-item nav-link active">Home</a>
               <div class="dropdown">
                 <a class="nav-item nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Kung Fu Training</a>
                 <div class="dropdown-menu">
@@ -152,7 +163,7 @@ background-color:#974B42;
               <div class="dropdown">
                 <a class="nav-item nav-link dropdown-toggle active" href="#About the School" data-toggle="dropdown" id="About the School">About
                   the School</a>
-                <div class="dropdown-menu">
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
                   <a href="masters.html" class="dropdown-item">Masters</a>
                   <a href="food.html" class="dropdown-item">Food & Meals</a>
                   <a href="rooms.html" class="dropdown-item">Accommodation</a>
@@ -175,7 +186,7 @@ background-color:#974B42;
                   <a href="apply.html" class="dropdown-item">Apply Winter Camp</a>
                 </div>
               </div>
-              <a class="nav-item nav-link active" href="contact.html">Contact us</a>
+              <a id="contact" class="nav-item nav-link active" href="contact.html">Contact us</a>
             </div><!-- navbar-nav -->
           </div><!-- collapse -->
         </nav><!-- nav -->
