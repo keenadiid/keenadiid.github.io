@@ -105,9 +105,14 @@ background-color:#974B42;
 .page-footer{
   padding: 10px;
 }
+.navbar-brand{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 .navbar-brand img{
   width: 110px;
   height: 70px;
+  margin-right: 5%;
   }
 #home:hover, #contact:hover, .dropdown a:hover{
   background-color: red;
@@ -135,16 +140,18 @@ background-color:#974B42;
 <body>
   <div class="container-fluid">
     <div class="row" id="logo" style="background-color: #974B42">
-      <div class="col">
-        <a href="#" class="navbar-brand"> <img src="images/0.png" class="rounded-circle" alt="logo" style="float:left">
-          Tancheng Chanwu International Kung Fu School
-        </a>
-          </div>
+      <div class="col-sm">
+        <div class="navbar-brand">
+            <img src="images/0.png" class="rounded-circle" alt="logo" style="float:left">
+            <h3 style="color: white">郯城禅悟国际功夫学校</h3>
+            <h4 style="color:white; text-transform: uppercase; font-size: 10px">Tancheng Chanwu International Kung Fu School</h4>
+        </div>
+    </div>
     </div>
     <div class="row">
       <div class="col">
         <nav class="navbar navbar- bg-light navbar-expand-lg navbar-toggleable nav-pill" style="background-color:#974B42">
-          <button style="border-color:white; background-color:black" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            <button id="btn1" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#myContent" aria-controls="myContent" aria-expanded="false" aria-label="Toggle Navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
