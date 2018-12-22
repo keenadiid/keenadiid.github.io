@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.min.css">
+  <link rel="stylesheet" href="navbar.css">
 
 <style>
 #goals img{
@@ -60,13 +61,13 @@ margin-right: 1%;
   font-weight: bold;
 }
 #social{
-  padding: 20px;
-  font-size: 30px;
-  width: 70px;
+  padding: 10px;
+  font-size: 25px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+  margin: 5px;
+  border-radius: 30%;
 }
 .fa-facebook{
   background: #3B5998;
@@ -106,46 +107,6 @@ background-color:#974B42;
 .page-footer{
   padding: 10px;
 }
-.navbar-brand{
-  margin-top: 0%;
-  margin-bottom: 0%;
-  margin-right: 10.5%;
-  margin-inline-start: 0%;
-}
-.navbar-brand img{
-  width: 110px;
-  height: 70px;
-  margin-right: 1.5%;
-  }
-#home:hover, #contact:hover, .dropdown a:hover{
-  background-color: red;
-}
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-menu a:hover {
-    background-color: #ddd;
-    color: black;
-}
-.dropdown-toggle::after{
-    display: none;
-}
-#btn1{
-  /* margin-left: 0%; */
-  width: 10%;
-  height: 5%;
-  color: black;
-  border-color: black;
-  background-color: black;
-}
-#topnav{
-  background-color: #974B42 !important;
-}
 </style>
 
 </head>
@@ -155,15 +116,17 @@ background-color:#974B42;
     <div class="row">
       <div class="col">
         <nav id="topnav" class="navbar navbar-dark navbar-expand-lg navbar-toggleable nav-pill">
-          <div class="navbar-brand">
-            <img src="images/0.png" class="rounded-circle" alt="logo" style="float:left">
-            <h3 style="color: white">郯城禅悟国际功夫学校</h3>
-            <h4 style="color:white; text-transform: uppercase; font-size: 10px">Tancheng Chanwu International Kung Fu School</h4>
-        </div>   
+          <div class="navbar-header">
+            <a href="" class="navbar-brand"> <img src="images/0.png" class="rounded-circle" alt="logo" style="float:left;">
+              <h3 class="d-none d-sm-block" style="color: white; font-size: 20px;"><strong>郯城禅悟国际功夫学校</strong></h3>
+              <h4 class="d-none d-sm-block" style="color:white; text-transform: uppercase; font-size: 10px"><strong>Tancheng Chanwu International Kung Fu School</strong></h4>
+            </a>
+      </div>
           <button id="btn1" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-            data-target="#myContent" aria-controls="myContent" aria-expanded="false" aria-label="Toggle Navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          data-target="#myContent" aria-controls="myContent" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
           <div class="collapse navbar-collapse justify-content-center" id="myContent">
             <div class="navbar-nav">
               <a id="home" href="index.html" class="nav-item nav-link active">Home</a>

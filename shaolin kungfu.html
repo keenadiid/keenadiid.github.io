@@ -12,6 +12,7 @@
     <script src="bootstrap/bootstrap.min.js"></script>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.min.css">
+    <link rel="stylesheet" href="navbar.css">
 </head>
 <style>
   .jumbotron{
@@ -44,66 +45,69 @@
   background: #bb0000;
   color: white;
 }
-.navbar-brand{
-    margin-right: 10%;
-  }
 </style>
 
 <body>
     <div class="container-fluid">
         <div class="row">
-          <div class="col-12">
-    <nav class="navbar navbar-dark navbar-expand-lg navbar-toggleable" style="background-color:brown">
-          <a href="#" class="navbar-brand">
-          <img src="images/0.png" style="width:90px; height:60px" class="rounded-circle" alt="logo"></a>
-  
-      <button style="border-color:white" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#myContent" aria-controls="myContent" aria-expanded="false" aria-label="Toggle Navigation"> 
-      <span class="navbar-toggler-icon"></span>
-      </button>
-              <div class="collapse navbar-collapse" id="myContent">
-              <div class="navbar-nav"> 
-                  <a class="nav-item nav-link active" href="index.html">Home</a>               
-                <div class="dropdown">
-                      <a class="nav-item nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Kung Fu Training</a>
-                      <div class="dropdown-menu">
-                          <a href="shaolin kungfu.html" class="dropdown-item">Shaolin Kung Fu</a>
-                          <a href="wingchun.html" class="dropdown-item">Wing Chun</a>
-                          <a href="qigong.html" class="dropdown-item">Qi Gong</a>
-                          <a href="taichi.html" class="dropdown-item">Tai Chi</a>
-                      </div>
+          <div class="col">
+            <nav id="topnav" class="navbar navbar-dark navbar-expand-lg navbar-toggleable nav-pill">
+              <div class="navbar-header">
+                <a href="" class="navbar-brand"> <img src="images/0.png" class="rounded-circle" alt="logo" style="float:left;">
+                  <h3 class="d-none d-sm-block" style="color: white; font-size: 20px;"><strong>郯城禅悟国际功夫学校</strong></h3>
+                  <h4 class="d-none d-sm-block" style="color:white; text-transform: uppercase; font-size: 10px"><strong>Tancheng Chanwu International Kung Fu School</strong></h4>
+                </a>
+          </div>
+              <button id="btn1" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+              data-target="#myContent" aria-controls="myContent" aria-expanded="false" aria-label="Toggle Navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+           
+              <div class="collapse navbar-collapse justify-content-center" id="myContent">
+                <div class="navbar-nav">
+                  <a id="home" href="index.html" class="nav-item nav-link active">Home</a>
+                  <div class="dropdown">
+                    <a class="nav-item nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Kung Fu Training</a>
+                    <div class="dropdown-menu">
+                      <a href="shaolin kungfu.html" class="dropdown-item">Shaolin Kung Fu</a>
+                      <a href="wingchun.html" class="dropdown-item">Wing Chun</a>
+                      <a href="qigong.html" class="dropdown-item">Qi Gong</a>
+                      <a href="taichi.html" class="dropdown-item">Tai Chi</a>
+                    </div>
                   </div>
                   <div class="dropdown">
-                  <a class="nav-item nav-link dropdown-toggle active" href="#About the School" data-toggle="dropdown" id="About the School">About the School</a>
-                      <div class="dropdown-menu">
-                          <a href="masters.html" class="dropdown-item">Masters</a>
-                          <a href="food.html" class="dropdown-item">Food & Meals</a>
-                          <a href="rooms.html" class="dropdown-item">Accommodation</a>
-                          <a href="schoolFacilities.html" class="dropdown-item">School Facilities</a>
-                      </div>
-              </div>
-              <div class="dropdown">
-                  <a class="nav-item nav-link dropdown-toggle active" href="#Media" data-toggle="dropdown">Media</a>
-                  <div class="dropdown-menu">
+                    <a class="nav-item nav-link dropdown-toggle active" href="#About the School" data-toggle="dropdown" id="About the School">About
+                      the School</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <a href="masters.html" class="dropdown-item">Masters</a>
+                      <a href="food.html" class="dropdown-item">Food & Meals</a>
+                      <a href="rooms.html" class="dropdown-item">Accommodation</a>
+                      <a href="schoolFacilities.html" class="dropdown-item">School Facilities</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <a class="nav-item nav-link dropdown-toggle active" href="#Media" data-toggle="dropdown">Media</a>
+                    <div class="dropdown-menu">
                       <a href="Gallery.html" class="dropdown-item">Gallery</a>
                       <a href="#" class="dropdown-item">Videos</a>
-                      <a href="#" class="dropdown-item">FAQs</a>
-                      <a href="#" class="dropdown-item">Blog</a>
+                      <a href="FAQs.html" class="dropdown-item">FAQs</a>
+                      <a href="blog1.html" class="dropdown-item">Blog</a>
+                    </div>
                   </div>
-              </div>
-              <div class="dropdown">
-                  <a class="nav-item nav-link dropdown-toggle active" href="#Apply" data-toggle="dropdown">Apply</a>
-                  <div class="dropdown-menu">
-                    <a href="#" class="dropdown-item">Apply Summer Camp</a>
-                    <a href="#" class="dropdown-item">Apply Winter Camp</a>
-                </div>
-                </div>
-                  <a class="nav-item nav-link active" href="#Contact us">Contact us</a>
-              </div><!-- navbar-nav -->
-      </div><!-- collapse -->
-    </div><!-- col -->
-    </div><!-- row -->
-      </nav><!-- nav -->
-    </div><!-- container -->
+                  <div class="dropdown">
+                    <a class="nav-item nav-link dropdown-toggle active" href="#Apply" data-toggle="dropdown">Apply</a>
+                    <div class="dropdown-menu">
+                      <a href="apply.html" class="dropdown-item">Apply Summer Camp</a>
+                      <a href="apply.html" class="dropdown-item">Apply Winter Camp</a>
+                    </div>
+                  </div>
+                  <a id="contact" class="nav-item nav-link active" href="contact.html">Contact us</a>
+                </div><!-- navbar-nav -->
+              </div><!-- collapse -->
+            </nav><!-- nav -->
+          </div><!-- col -->
+        </div><!-- row -->
+      </div><!--container---->
     <div class="container-fluid">
     <article>
         <h2>Shaolin Kung Fu</h2>
