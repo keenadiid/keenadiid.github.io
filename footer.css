@@ -1,0 +1,37 @@
+.copyright{
+    border-top: 1px solid #333;
+    padding: 10px;
+    margin-right: 0%;
+    text-align: center;
+    background-color:#974B42;
+    }
+    .page-footer{
+      padding: 17px;
+    }
+    #skype{
+        font-weight: bold;
+      }
+      #wechat{
+        font-weight: bold;
+      }
+      #social{
+        padding: 10px;
+        font-size: 25px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px;
+        border-radius: 30%;
+      }
+      .fa-facebook{
+        background: #3B5998;
+        color: white;
+      }
+      .fa-linkedin{
+        background: #007bb5;
+        color: white;
+      }
+      .fa-youtube{
+        background: #bb0000;
+        color: white;
+      }

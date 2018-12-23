@@ -10,21 +10,27 @@
     <script src="bootstrap/popper.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
-          <div class="col-12">
-            <nav class="navbar navbar-dark navbar-expand-lg navbar-toggleable" style="background-color:#974B42">
-              <a href="#" class="navbar-brand">
-                <img src="images/0.png" style="width:90px; height:60px" class="rounded-circle" alt="logo"></a>
-              <button style="border-color:white" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#myContent" aria-controls="myContent" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="myContent">
+          <div class="col">
+            <nav id="topnav" class="navbar navbar-dark navbar-expand-lg navbar-toggleable nav-pill">
+              <div class="navbar-header">
+                <a href="" class="navbar-brand"> <img src="images/0.png" class="rounded-circle" alt="logo" style="float:left;">
+                  <h3 class="d-none d-sm-block" style="color: white; font-size: 30px;"><strong>郯城禅悟国际功夫学校</strong></h3>
+                  <h4 class="d-none d-sm-block" style="color:white; text-transform: uppercase; font-size: 11px"><strong>Tancheng Chanwu International Kung Fu School</strong></h4>
+                </a>
+          </div>
+              <button id="btn1" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+              data-target="#myContent" aria-controls="myContent" aria-expanded="false" aria-label="Toggle Navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+           
+              <div class="collapse navbar-collapse justify-content-center" id="myContent">
                 <div class="navbar-nav">
-                  <a href="index.html" class="nav-item nav-link active">Home</a>
+                  <a id="home" href="index.html" class="nav-item nav-link active">Home</a>
                   <div class="dropdown">
                     <a class="nav-item nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Kung Fu Training</a>
                     <div class="dropdown-menu">
@@ -37,7 +43,7 @@
                   <div class="dropdown">
                     <a class="nav-item nav-link dropdown-toggle active" href="#About the School" data-toggle="dropdown" id="About the School">About
                       the School</a>
-                    <div class="dropdown-menu">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
                       <a href="masters.html" class="dropdown-item">Masters</a>
                       <a href="food.html" class="dropdown-item">Food & Meals</a>
                       <a href="rooms.html" class="dropdown-item">Accommodation</a>
@@ -60,12 +66,12 @@
                       <a href="apply.html" class="dropdown-item">Apply Winter Camp</a>
                     </div>
                   </div>
-                  <a class="nav-item nav-link active" href="contact.html">Contact us</a>
+                  <a id="contact" class="nav-item nav-link active" href="contact.html">Contact us</a>
                 </div><!-- navbar-nav -->
               </div><!-- collapse -->
+            </nav><!-- nav -->
           </div><!-- col -->
         </div><!-- row -->
-        </nav><!-- nav -->
-      </div><!-- container -->
+      </div><!--container---->    
 </body>
 </html>

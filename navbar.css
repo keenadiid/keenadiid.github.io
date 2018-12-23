@@ -38,3 +38,12 @@
   #topnav{
     background-color: #974B42 !important;
   }
+  .navbar-header h3{
+    color: white; 
+    font-size: 30px;
+  }
+.navbar-header h4{
+  color:white; 
+  text-transform: uppercase; 
+  font-size: 11px;
+}
