@@ -123,8 +123,8 @@ margin-right: 1%;
               <div class="dropdown">
                 <a class="nav-item nav-link dropdown-toggle active" href="#Apply" data-toggle="dropdown">Apply</a>
                 <div class="dropdown-menu">
-                  <a href="apply.html" class="dropdown-item">Apply Summer Camp</a>
-                  <a href="apply.html" class="dropdown-item">Apply Winter Camp</a>
+                  <a href="apply.php" class="dropdown-item">Apply Summer Camp</a>
+                  <a href="apply.php" class="dropdown-item">Apply Winter Camp</a>
                 </div>
               </div>
               <a id="contact" class="nav-item nav-link active" href="contact.html">Contact us</a>
